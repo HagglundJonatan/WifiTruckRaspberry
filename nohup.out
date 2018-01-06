@@ -1,0 +1,1324 @@
+['/home/pi/WifiTruckServerApplication/wifi_truck_server.py', '192.168.43.100']
+192.168.43.100
+Waiting on connection...
+Connection accepted!
+Try to get 8number of bytes
+Received - CMD_RGT
+
+Bytes received - 8
+Try to get 8number of bytes
+TURN RIGHT!
+setServoPules - input:0.000000
+setServoPulse - pwmOutput:230
+WTC - STEER
+Msg to send to client:Server received:CMD_RGT
+Bytes sent to client:23
+Received - CMD_RL1
+
+Bytes received - 8
+Try to get 8number of bytesRELEASE SERVO 1
+
+Msg to send to client:Server received:CMD_RL1
+Bytes sent to client:23
+Received - CMD_LFT
+
+Bytes received - 8
+Try to get 8number of bytes
+TURN LEFT!
+setServoPules - input:1.000000
+setServoPulse - pwmOutput:385
+WTC - STEER
+Msg to send to client:Server received:CMD_LFT
+Bytes sent to client:23
+Received - CMD_RL1
+
+Bytes received - 8
+Try to get 8number of bytesRELEASE SERVO 1
+
+Msg to send to client:Server received:CMD_RL1
+Bytes sent to client:23
+Received - CMD_UPP
+
+Bytes received - 8
+Try to get 8number of bytes
+FORWARD!
+setServoPules - input:1.000000
+setServoPulse - pwmOutput:385
+WTC - MOVE
+Msg to send to client:Server received:CMD_UPP
+Bytes sent to client:23
+Received - CMD_RL2
+
+Bytes received - 8
+Try to get 8number of bytesRELEASE SERVO 2
+
+Msg to send to client:Server received:CMD_RL2
+Bytes sent to client:23
+Received - CMD_DWN
+
+Bytes received - 8
+Try to get 8number of bytesBACKWARD!
+setServoPules - input:0.000000
+setServoPulse - pwmOutput:230
+WTC - MOVE
+
+Msg to send to client:Server received:CMD_DWN
+Bytes sent to client:23
+Received - CMD_RL2
+
+Bytes received - 8
+Try to get 8number of bytesRELEASE SERVO 2
+
+Msg to send to client:Server received:CMD_RL2
+Bytes sent to client:23
+Received - CMD_LFT
+
+Bytes received - 8
+Try to get 8number of bytes
+TURN LEFT!
+setServoPules - input:1.000000
+setServoPulse - pwmOutput:385
+WTC - STEER
+Msg to send to client:Server received:CMD_LFT
+Bytes sent to client:23
+Received - CMD_RL1
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 1
+Msg to send to client:Server received:CMD_RL1
+Bytes sent to client:23
+Received - CMD_LFT
+
+Bytes received - 8
+Try to get 8number of bytesTURN LEFT!
+setServoPules - input:1.000000
+setServoPulse - pwmOutput:385
+WTC - STEER
+
+Msg to send to client:Server received:CMD_LFT
+Bytes sent to client:23
+Received - CMD_RL1
+
+Bytes received - 8
+Try to get 8number of bytesRELEASE SERVO 1
+
+Msg to send to client:Server received:CMD_RL1
+Bytes sent to client:23
+Received - CMD_RGT
+
+Bytes received - 8
+Try to get 8number of bytesTURN RIGHT!
+setServoPules - input:0.000000
+setServoPulse - pwmOutput:230
+WTC - STEER
+
+Msg to send to client:Server received:CMD_RGT
+Bytes sent to client:23
+Received - CMD_RL1
+
+Bytes received - 8
+Try to get 8number of bytesRELEASE SERVO 1
+
+Msg to send to client:Server received:CMD_RL1
+Bytes sent to client:23
+Received - CMD_LFT
+
+Bytes received - 8
+Try to get 8number of bytes
+TURN LEFT!
+setServoPules - input:1.000000
+setServoPulse - pwmOutput:385
+WTC - STEER
+Msg to send to client:Server received:CMD_LFT
+Bytes sent to client:23
+Received - CMD_RL1
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 1
+Msg to send to client:Server received:CMD_RL1
+Bytes sent to client:23
+Received - CMD_RGT
+
+Bytes received - 8
+Try to get 8number of bytes
+TURN RIGHT!
+setServoPules - input:0.000000
+setServoPulse - pwmOutput:230
+WTC - STEER
+Msg to send to client:Server received:CMD_RGT
+Bytes sent to client:23
+Received - CMD_RL1
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 1
+Msg to send to client:Server received:CMD_RL1
+Bytes sent to client:23
+Received - CMD_RGT
+
+Bytes received - 8
+Try to get 8number of bytes
+TURN RIGHT!
+setServoPules - input:0.000000
+setServoPulse - pwmOutput:230
+WTC - STEER
+Msg to send to client:Server received:CMD_RGT
+Bytes sent to client:23
+Received - CMD_RL1
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 1
+Msg to send to client:Server received:CMD_RL1
+Bytes sent to client:23
+Received - CMD_RGT
+
+Bytes received - 8
+Try to get 8number of bytes
+TURN RIGHT!
+setServoPules - input:0.000000
+setServoPulse - pwmOutput:230
+WTC - STEER
+Msg to send to client:Server received:CMD_RGT
+Bytes sent to client:23
+Received - CMD_RL1
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 1
+Msg to send to client:Server received:CMD_RL1
+Bytes sent to client:23
+Received - CMD_LFT
+
+Bytes received - 8
+Try to get 8number of bytes
+TURN LEFT!
+setServoPules - input:1.000000
+setServoPulse - pwmOutput:385
+WTC - STEER
+Msg to send to client:Server received:CMD_LFT
+Bytes sent to client:23
+Received - CMD_RL1
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 1
+Msg to send to client:Server received:CMD_RL1
+Bytes sent to client:23
+Received - CMD_RGT
+
+Bytes received - 8
+Try to get 8number of bytes
+TURN RIGHT!
+setServoPules - input:0.000000
+setServoPulse - pwmOutput:230
+WTC - STEER
+Msg to send to client:Server received:CMD_RGT
+Bytes sent to client:23
+Received - CMD_RL1
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 1
+Msg to send to client:Server received:CMD_RL1
+Bytes sent to client:23
+Received - CMD_LFT
+
+Bytes received - 8
+Try to get 8number of bytes
+TURN LEFT!
+setServoPules - input:1.000000
+setServoPulse - pwmOutput:385
+WTC - STEER
+Msg to send to client:Server received:CMD_LFT
+Bytes sent to client:23
+Received - CMD_RL1
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 1
+Msg to send to client:Server received:CMD_RL1
+Bytes sent to client:23
+Received - CMD_RGT
+
+Bytes received - 8
+Try to get 8number of bytes
+TURN RIGHT!
+setServoPules - input:0.000000
+setServoPulse - pwmOutput:230
+WTC - STEER
+Msg to send to client:Server received:CMD_RGT
+Bytes sent to client:23
+Received - CMD_RL1
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 1
+Msg to send to client:Server received:CMD_RL1
+Bytes sent to client:23
+Received - CMD_RGT
+
+Bytes received - 8
+Try to get 8number of bytes
+TURN RIGHT!
+setServoPules - input:0.000000
+setServoPulse - pwmOutput:230
+WTC - STEER
+Msg to send to client:Server received:CMD_RGT
+Bytes sent to client:23
+Received - CMD_RL1
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 1
+Msg to send to client:Server received:CMD_RL1
+Bytes sent to client:23
+Received - CMD_RGT
+
+Bytes received - 8
+Try to get 8number of bytes
+TURN RIGHT!
+setServoPules - input:0.000000
+setServoPulse - pwmOutput:230
+WTC - STEER
+Msg to send to client:Server received:CMD_RGT
+Bytes sent to client:23
+Received - CMD_RL1
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 1
+Msg to send to client:Server received:CMD_RL1
+Bytes sent to client:23
+Received - CMD_LFT
+
+Bytes received - 8
+Try to get 8number of bytes
+TURN LEFT!
+setServoPules - input:1.000000
+setServoPulse - pwmOutput:385
+WTC - STEER
+Msg to send to client:Server received:CMD_LFT
+Bytes sent to client:23
+Received - CMD_RL1
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 1
+Msg to send to client:Server received:CMD_RL1
+Bytes sent to client:23
+Received - CMD_LFT
+
+Bytes received - 8
+Try to get 8number of bytes
+TURN LEFT!
+setServoPules - input:1.000000
+setServoPulse - pwmOutput:385
+WTC - STEER
+Msg to send to client:Server received:CMD_LFT
+Bytes sent to client:23
+Received - CMD_RL1
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 1
+Msg to send to client:Server received:CMD_RL1
+Bytes sent to client:23
+Received - CMD_LFT
+
+Bytes received - 8
+Try to get 8number of bytes
+TURN LEFT!
+setServoPules - input:1.000000
+setServoPulse - pwmOutput:385
+WTC - STEER
+Msg to send to client:Server received:CMD_LFT
+Bytes sent to client:23
+Received - CMD_RL1
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 1
+Msg to send to client:Server received:CMD_RL1
+Bytes sent to client:23
+Received - CMD_LFT
+
+Bytes received - 8
+Try to get 8number of bytes
+TURN LEFT!
+setServoPules - input:1.000000
+setServoPulse - pwmOutput:385
+WTC - STEER
+Msg to send to client:Server received:CMD_LFT
+Bytes sent to client:23
+Received - CMD_RL1
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 1
+Msg to send to client:Server received:CMD_RL1
+Bytes sent to client:23
+Received - CMD_UPP
+
+Bytes received - 8
+Try to get 8number of bytes
+FORWARD!
+setServoPules - input:1.000000
+setServoPulse - pwmOutput:385
+WTC - MOVE
+Msg to send to client:Server received:CMD_UPP
+Bytes sent to client:23
+Received - CMD_RL2
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 2
+Msg to send to client:Server received:CMD_RL2
+Bytes sent to client:23
+Received - CMD_DWN
+
+Bytes received - 8
+Try to get 8number of bytes
+BACKWARD!
+setServoPules - input:0.000000
+setServoPulse - pwmOutput:230
+WTC - MOVE
+Msg to send to client:Server received:CMD_DWN
+Bytes sent to client:23
+Received - CMD_RL2
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 2
+Msg to send to client:Server received:CMD_RL2
+Bytes sent to client:23
+Received - CMD_DWN
+
+Bytes received - 8
+Try to get 8number of bytes
+BACKWARD!
+setServoPules - input:0.000000
+setServoPulse - pwmOutput:230
+WTC - MOVE
+Msg to send to client:Server received:CMD_DWN
+Bytes sent to client:23
+Received - CMD_RL2
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 2
+Msg to send to client:Server received:CMD_RL2
+Bytes sent to client:23
+Received - CMD_UPP
+
+Bytes received - 8
+Try to get 8number of bytes
+FORWARD!
+setServoPules - input:1.000000
+setServoPulse - pwmOutput:385
+WTC - MOVE
+Msg to send to client:Server received:CMD_UPP
+Bytes sent to client:23
+Received - CMD_RL2
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 2
+Msg to send to client:Server received:CMD_RL2
+Bytes sent to client:23
+Received - CMD_UPP
+
+Bytes received - 8
+Try to get 8number of bytes
+FORWARD!
+setServoPules - input:1.000000
+setServoPulse - pwmOutput:385
+WTC - MOVE
+Msg to send to client:Server received:CMD_UPP
+Bytes sent to client:23
+Received - CMD_RL2
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 2
+Msg to send to client:Server received:CMD_RL2
+Bytes sent to client:23
+Received - CMD_DWN
+
+Bytes received - 8
+Try to get 8number of bytes
+BACKWARD!
+setServoPules - input:0.000000
+setServoPulse - pwmOutput:230
+WTC - MOVE
+Msg to send to client:Server received:CMD_DWN
+Bytes sent to client:23
+Received - CMD_RL2
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 2
+Msg to send to client:Server received:CMD_RL2
+Bytes sent to client:23
+Received - CMD_DWN
+
+Bytes received - 8
+Try to get 8number of bytes
+BACKWARD!
+setServoPules - input:0.000000
+setServoPulse - pwmOutput:230
+WTC - MOVE
+Msg to send to client:Server received:CMD_DWN
+Bytes sent to client:23
+Received - CMD_RL2
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 2
+Msg to send to client:Server received:CMD_RL2
+Bytes sent to client:23
+Received - CMD_DWN
+
+Bytes received - 8
+Try to get 8number of bytes
+BACKWARD!
+setServoPules - input:0.000000
+setServoPulse - pwmOutput:230
+WTC - MOVE
+Msg to send to client:Server received:CMD_DWN
+Bytes sent to client:23
+Received - CMD_RL2
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 2
+Msg to send to client:Server received:CMD_RL2
+Bytes sent to client:23
+Received - CMD_DWN
+
+Bytes received - 8
+Try to get 8number of bytes
+BACKWARD!
+setServoPules - input:0.000000
+setServoPulse - pwmOutput:230
+WTC - MOVE
+Msg to send to client:Server received:CMD_DWN
+Bytes sent to client:23
+Received - CMD_RL2
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 2
+Msg to send to client:Server received:CMD_RL2
+Bytes sent to client:23
+Received - CMD_UPP
+
+Bytes received - 8
+Try to get 8number of bytes
+FORWARD!
+setServoPules - input:1.000000
+setServoPulse - pwmOutput:385
+WTC - MOVE
+Msg to send to client:Server received:CMD_UPP
+Bytes sent to client:23
+Received - CMD_RL2
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 2
+Msg to send to client:Server received:CMD_RL2
+Bytes sent to client:23
+Received - CMD_UPP
+
+Bytes received - 8
+Try to get 8number of bytes
+FORWARD!
+setServoPules - input:1.000000
+setServoPulse - pwmOutput:385
+WTC - MOVE
+Msg to send to client:Server received:CMD_UPP
+Bytes sent to client:23
+Received - CMD_RL2
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 2
+Msg to send to client:Server received:CMD_RL2
+Bytes sent to client:23
+Received - CMD_DWN
+
+Bytes received - 8
+Try to get 8number of bytes
+BACKWARD!
+setServoPules - input:0.000000
+setServoPulse - pwmOutput:230
+WTC - MOVE
+Msg to send to client:Server received:CMD_DWN
+Bytes sent to client:23
+Received - CMD_RL2
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 2
+Msg to send to client:Server received:CMD_RL2
+Bytes sent to client:23
+Received - CMD_UPP
+
+Bytes received - 8
+Try to get 8number of bytes
+FORWARD!
+setServoPules - input:1.000000
+setServoPulse - pwmOutput:385
+WTC - MOVE
+Msg to send to client:Server received:CMD_UPP
+Bytes sent to client:23
+Received - CMD_RL2
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 2
+Msg to send to client:Server received:CMD_RL2
+Bytes sent to client:23
+Received - CMD_UPP
+
+Bytes received - 8
+Try to get 8number of bytes
+FORWARD!
+setServoPules - input:1.000000
+setServoPulse - pwmOutput:385
+WTC - MOVE
+Msg to send to client:Server received:CMD_UPP
+Bytes sent to client:23
+Received - CMD_RL2
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 2
+Msg to send to client:Server received:CMD_RL2
+Bytes sent to client:23
+Received - CMD_DWN
+
+Bytes received - 8
+Try to get 8number of bytes
+BACKWARD!
+setServoPules - input:0.000000
+setServoPulse - pwmOutput:230
+WTC - MOVE
+Msg to send to client:Server received:CMD_DWN
+Bytes sent to client:23
+Received - CMD_RL2
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 2
+Msg to send to client:Server received:CMD_RL2
+Bytes sent to client:23
+Received - CMD_DWN
+
+Bytes received - 8
+Try to get 8number of bytes
+BACKWARD!
+setServoPules - input:0.000000
+setServoPulse - pwmOutput:230
+WTC - MOVE
+Msg to send to client:Server received:CMD_DWN
+Bytes sent to client:23
+Received - CMD_RL2
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 2
+Msg to send to client:Server received:CMD_RL2
+Bytes sent to client:23
+Received - CMD_DWN
+
+Bytes received - 8
+Try to get 8number of bytes
+BACKWARD!
+setServoPules - input:0.000000
+setServoPulse - pwmOutput:230
+WTC - MOVE
+Msg to send to client:Server received:CMD_DWN
+Bytes sent to client:23
+Received - CMD_RL2
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 2
+Msg to send to client:Server received:CMD_RL2
+Bytes sent to client:23
+Received - CMD_UPP
+
+Bytes received - 8
+Try to get 8number of bytes
+FORWARD!
+setServoPules - input:1.000000
+setServoPulse - pwmOutput:385
+WTC - MOVE
+Msg to send to client:Server received:CMD_UPP
+Bytes sent to client:23
+Received - CMD_RL2
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 2
+Msg to send to client:Server received:CMD_RL2
+Bytes sent to client:23
+Received - CMD_DWN
+
+Bytes received - 8
+Try to get 8number of bytes
+BACKWARD!
+setServoPules - input:0.000000
+setServoPulse - pwmOutput:230
+WTC - MOVE
+Msg to send to client:Server received:CMD_DWN
+Bytes sent to client:23
+Received - CMD_RL2
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 2
+Msg to send to client:Server received:CMD_RL2
+Bytes sent to client:23
+Received - CMD_UPP
+
+Bytes received - 8
+Try to get 8number of bytes
+FORWARD!
+setServoPules - input:1.000000
+setServoPulse - pwmOutput:385
+WTC - MOVE
+Msg to send to client:Server received:CMD_UPP
+Bytes sent to client:23
+Received - CMD_RL2
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 2
+Msg to send to client:Server received:CMD_RL2
+Bytes sent to client:23
+Received - CMD_RGT
+
+Bytes received - 8
+Try to get 8number of bytes
+TURN RIGHT!
+setServoPules - input:0.000000
+setServoPulse - pwmOutput:230
+WTC - STEER
+Msg to send to client:Server received:CMD_RGT
+Bytes sent to client:23
+Received - CMD_RL1
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 1
+Msg to send to client:Server received:CMD_RL1
+Bytes sent to client:23
+Received - CMD_RGT
+
+Bytes received - 8
+Try to get 8number of bytes
+TURN RIGHT!
+setServoPules - input:0.000000
+setServoPulse - pwmOutput:230
+WTC - STEER
+Msg to send to client:Server received:CMD_RGT
+Bytes sent to client:23
+Received - CMD_RL1
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 1
+Msg to send to client:Server received:CMD_RL1
+Bytes sent to client:23
+Received - CMD_LFT
+
+Bytes received - 8
+Try to get 8number of bytes
+TURN LEFT!
+setServoPules - input:1.000000
+setServoPulse - pwmOutput:385
+WTC - STEER
+Msg to send to client:Server received:CMD_LFT
+Bytes sent to client:23
+Received - CMD_RL1
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 1
+Msg to send to client:Server received:CMD_RL1
+Bytes sent to client:23
+Received - CMD_LFT
+
+Bytes received - 8
+Try to get 8number of bytes
+TURN LEFT!
+setServoPules - input:1.000000
+setServoPulse - pwmOutput:385
+WTC - STEER
+Msg to send to client:Server received:CMD_LFT
+Bytes sent to client:23
+Received - CMD_RL1
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 1
+Msg to send to client:Server received:CMD_RL1
+Bytes sent to client:23
+Received - CMD_UPP
+
+Bytes received - 8
+Try to get 8number of bytes
+FORWARD!
+setServoPules - input:1.000000
+setServoPulse - pwmOutput:385
+WTC - MOVE
+Msg to send to client:Server received:CMD_UPP
+Bytes sent to client:23
+Received - CMD_RL2
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 2
+Msg to send to client:Server received:CMD_RL2
+Bytes sent to client:23
+Received - CMD_UPP
+
+Bytes received - 8
+Try to get 8number of bytes
+FORWARD!
+setServoPules - input:1.000000
+setServoPulse - pwmOutput:385
+WTC - MOVE
+Msg to send to client:Server received:CMD_UPP
+Bytes sent to client:23
+Received - CMD_RL2
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 2
+Msg to send to client:Server received:CMD_RL2
+Bytes sent to client:23
+Received - CMD_UPP
+
+Bytes received - 8
+Try to get 8number of bytes
+FORWARD!
+setServoPules - input:1.000000
+setServoPulse - pwmOutput:385
+WTC - MOVE
+Msg to send to client:Server received:CMD_UPP
+Bytes sent to client:23
+Received - CMD_RL2
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 2
+Msg to send to client:Server received:CMD_RL2
+Bytes sent to client:23
+Received - CMD_DWN
+
+Bytes received - 8
+Try to get 8number of bytes
+BACKWARD!
+setServoPules - input:0.000000
+setServoPulse - pwmOutput:230
+WTC - MOVE
+Msg to send to client:Server received:CMD_DWN
+Bytes sent to client:23
+Received - CMD_RL2
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 2
+Msg to send to client:Server received:CMD_RL2
+Bytes sent to client:23
+Received - CMD_DWN
+
+Bytes received - 8
+Try to get 8number of bytes
+BACKWARD!
+setServoPules - input:0.000000
+setServoPulse - pwmOutput:230
+WTC - MOVE
+Msg to send to client:Server received:CMD_DWN
+Bytes sent to client:23
+Received - CMD_RL2
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 2
+Msg to send to client:Server received:CMD_RL2
+Bytes sent to client:23
+Received - CMD_RGT
+
+Bytes received - 8
+Try to get 8number of bytes
+TURN RIGHT!
+setServoPules - input:0.000000
+setServoPulse - pwmOutput:230
+WTC - STEER
+Msg to send to client:Server received:CMD_RGT
+Bytes sent to client:23
+Received - CMD_RL1
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 1
+Msg to send to client:Server received:CMD_RL1
+Bytes sent to client:23
+Received - CMD_RGT
+
+Bytes received - 8
+Try to get 8number of bytes
+TURN RIGHT!
+setServoPules - input:0.000000
+setServoPulse - pwmOutput:230
+WTC - STEER
+Msg to send to client:Server received:CMD_RGT
+Bytes sent to client:23
+Received - CMD_RL1
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 1
+Msg to send to client:Server received:CMD_RL1
+Bytes sent to client:23
+Received - CMD_LFT
+
+Bytes received - 8
+Try to get 8number of bytes
+TURN LEFT!
+setServoPules - input:1.000000
+setServoPulse - pwmOutput:385
+WTC - STEER
+Msg to send to client:Server received:CMD_LFT
+Bytes sent to client:23
+Received - CMD_RL1
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 1
+Msg to send to client:Server received:CMD_RL1
+Bytes sent to client:23
+Received - CMD_RGT
+
+Bytes received - 8
+Try to get 8number of bytes
+TURN RIGHT!
+setServoPules - input:0.000000
+setServoPulse - pwmOutput:230
+WTC - STEER
+Msg to send to client:Server received:CMD_RGT
+Bytes sent to client:23
+Received - CMD_RL1
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 1
+Msg to send to client:Server received:CMD_RL1
+Bytes sent to client:23
+Received - CMD_LFT
+
+Bytes received - 8
+Try to get 8number of bytes
+TURN LEFT!
+setServoPules - input:1.000000
+setServoPulse - pwmOutput:385
+WTC - STEER
+Msg to send to client:Server received:CMD_LFT
+Bytes sent to client:23
+Received - CMD_RL1
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 1
+Msg to send to client:Server received:CMD_RL1
+Bytes sent to client:23
+Received - CMD_RGT
+
+Bytes received - 8
+Try to get 8number of bytes
+TURN RIGHT!
+setServoPules - input:0.000000
+setServoPulse - pwmOutput:230
+WTC - STEER
+Msg to send to client:Server received:CMD_RGT
+Bytes sent to client:23
+Received - CMD_RL1
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 1
+Msg to send to client:Server received:CMD_RL1
+Bytes sent to client:23
+Received - CMD_LFT
+
+Bytes received - 8
+Try to get 8number of bytes
+TURN LEFT!
+setServoPules - input:1.000000
+setServoPulse - pwmOutput:385
+WTC - STEER
+Msg to send to client:Server received:CMD_LFT
+Bytes sent to client:23
+Received - CMD_RL1
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 1
+Msg to send to client:Server received:CMD_RL1
+Bytes sent to client:23
+Received - CMD_RGT
+
+Bytes received - 8
+Try to get 8number of bytes
+TURN RIGHT!
+setServoPules - input:0.000000
+setServoPulse - pwmOutput:230
+WTC - STEER
+Msg to send to client:Server received:CMD_RGT
+Bytes sent to client:23
+Received - CMD_RL1
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 1
+Msg to send to client:Server received:CMD_RL1
+Bytes sent to client:23
+Received - CMD_LFT
+
+Bytes received - 8
+Try to get 8number of bytes
+TURN LEFT!
+setServoPules - input:1.000000
+setServoPulse - pwmOutput:385
+WTC - STEER
+Msg to send to client:Server received:CMD_LFT
+Bytes sent to client:23
+Received - CMD_RL1
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 1
+Msg to send to client:Server received:CMD_RL1
+Bytes sent to client:23
+Received - CMD_RGT
+
+Bytes received - 8
+Try to get 8number of bytes
+TURN RIGHT!
+setServoPules - input:0.000000
+setServoPulse - pwmOutput:230
+WTC - STEER
+Msg to send to client:Server received:CMD_RGT
+Bytes sent to client:23
+Received - CMD_RL1
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 1
+Msg to send to client:Server received:CMD_RL1
+Bytes sent to client:23
+Received - CMD_LFT
+
+Bytes received - 8
+Try to get 8number of bytes
+TURN LEFT!
+setServoPules - input:1.000000
+setServoPulse - pwmOutput:385
+WTC - STEER
+Msg to send to client:Server received:CMD_LFT
+Bytes sent to client:23
+Received - CMD_RL1
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 1
+Msg to send to client:Server received:CMD_RL1
+Bytes sent to client:23
+Received - CMD_LFT
+
+Bytes received - 8
+Try to get 8number of bytes
+TURN LEFT!
+setServoPules - input:1.000000
+setServoPulse - pwmOutput:385
+WTC - STEER
+Msg to send to client:Server received:CMD_LFT
+Bytes sent to client:23
+Received - CMD_RL1
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 1
+Msg to send to client:Server received:CMD_RL1
+Bytes sent to client:23
+Received - CMD_RGT
+
+Bytes received - 8
+Try to get 8number of bytes
+TURN RIGHT!
+setServoPules - input:0.000000
+setServoPulse - pwmOutput:230
+WTC - STEER
+Msg to send to client:Server received:CMD_RGT
+Bytes sent to client:23
+Received - CMD_RL1
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 1
+Msg to send to client:Server received:CMD_RL1
+Bytes sent to client:23
+Received - CMD_LFT
+
+Bytes received - 8
+Try to get 8number of bytes
+TURN LEFT!
+setServoPules - input:1.000000
+setServoPulse - pwmOutput:385
+WTC - STEER
+Msg to send to client:Server received:CMD_LFT
+Bytes sent to client:23
+Received - CMD_RL1
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 1
+Msg to send to client:Server received:CMD_RL1
+Bytes sent to client:23
+Received - CMD_RGT
+
+Bytes received - 8
+Try to get 8number of bytes
+TURN RIGHT!
+setServoPules - input:0.000000
+setServoPulse - pwmOutput:230
+WTC - STEER
+Msg to send to client:Server received:CMD_RGT
+Bytes sent to client:23
+Received - CMD_RL1
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 1
+Msg to send to client:Server received:CMD_RL1
+Bytes sent to client:23
+Received - CMD_LFT
+
+Bytes received - 8
+Try to get 8number of bytes
+TURN LEFT!
+setServoPules - input:1.000000
+setServoPulse - pwmOutput:385
+WTC - STEER
+Msg to send to client:Server received:CMD_LFT
+Bytes sent to client:23
+Received - CMD_RL1
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 1
+Msg to send to client:Server received:CMD_RL1
+Bytes sent to client:23
+Received - CMD_RGT
+
+Bytes received - 8
+Try to get 8number of bytes
+TURN RIGHT!
+setServoPules - input:0.000000
+setServoPulse - pwmOutput:230
+WTC - STEER
+Msg to send to client:Server received:CMD_RGT
+Bytes sent to client:23
+Received - CMD_RL1
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 1
+Msg to send to client:Server received:CMD_RL1
+Bytes sent to client:23
+Received - CMD_LFT
+
+Bytes received - 8
+Try to get 8number of bytes
+TURN LEFT!
+setServoPules - input:1.000000
+setServoPulse - pwmOutput:385
+WTC - STEER
+Msg to send to client:Server received:CMD_LFT
+Bytes sent to client:23
+Received - CMD_RL1
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 1
+Msg to send to client:Server received:CMD_RL1
+Bytes sent to client:23
+Received - CMD_RGT
+
+Bytes received - 8
+Try to get 8number of bytes
+TURN RIGHT!
+setServoPules - input:0.000000
+setServoPulse - pwmOutput:230
+WTC - STEER
+Msg to send to client:Server received:CMD_RGT
+Bytes sent to client:23
+Received - CMD_RL1
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 1
+Msg to send to client:Server received:CMD_RL1
+Bytes sent to client:23
+Received - DSCNNCT
+
+Bytes received - 8
+Try to get 8number of bytes
+Disconnect!
+setServoPules - input:0.500000
+setServoPulse - pwmOutput:307
+WTC - STOP
+Stopping server
+Waiting on connection...
+Msg to send to client:Server received:DSCNNCT
+Bytes sent to client:23
+Connection accepted!
+Try to get 8number of bytes
+else - currentMsg:
+Msg to send to client:Server received:
+Bytes sent to client:16
+Received - CMD_RGT
+
+Bytes received - 8
+Try to get 8number of bytes
+TURN RIGHT!
+setServoPules - input:0.000000
+setServoPulse - pwmOutput:230
+WTC - STEER
+Msg to send to client:Server received:CMD_RGT
+Bytes sent to client:23
+Received - CMD_RL1
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 1
+Msg to send to client:Server received:CMD_RL1
+Bytes sent to client:23
+Received - CMD_LFT
+
+Bytes received - 8
+Try to get 8number of bytes
+TURN LEFT!
+setServoPules - input:1.000000
+setServoPulse - pwmOutput:385
+WTC - STEER
+Msg to send to client:Server received:CMD_LFT
+Bytes sent to client:23
+Received - CMD_RL1
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 1
+Msg to send to client:Server received:CMD_RL1
+Bytes sent to client:23
+Received - CMD_RGT
+
+Bytes received - 8
+Try to get 8number of bytes
+TURN RIGHT!
+setServoPules - input:0.000000
+setServoPulse - pwmOutput:230
+WTC - STEER
+Msg to send to client:Server received:CMD_RGT
+Bytes sent to client:23
+Received - CMD_RL1
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 1
+Msg to send to client:Server received:CMD_RL1
+Bytes sent to client:23
+Received - CMD_LFT
+
+Bytes received - 8
+Try to get 8number of bytes
+TURN LEFT!
+setServoPules - input:1.000000
+setServoPulse - pwmOutput:385
+WTC - STEER
+Msg to send to client:Server received:CMD_LFT
+Bytes sent to client:23
+Received - CMD_RL1
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 1
+Msg to send to client:Server received:CMD_RL1
+Bytes sent to client:23
+Received - DSCNNCT
+
+Bytes received - 8
+Try to get 8number of bytes
+Disconnect!
+setServoPules - input:0.500000
+setServoPulse - pwmOutput:307
+WTC - STOP
+Stopping server
+Waiting on connection...
+Msg to send to client:Server received:DSCNNCT
+Bytes sent to client:23
+Connection accepted!
+Try to get 8number of bytes
+else - currentMsg:
+Msg to send to client:Server received:
+Bytes sent to client:16
+Received - CMD_RGT
+
+Bytes received - 8
+Try to get 8number of bytes
+TURN RIGHT!
+setServoPules - input:0.000000
+setServoPulse - pwmOutput:230
+WTC - STEER
+Msg to send to client:Server received:CMD_RGT
+Bytes sent to client:23
+Received - CMD_RL1
+
+Bytes received - 8
+Try to get 8number of bytes
+RELEASE SERVO 1
+Msg to send to client:Server received:CMD_RL1
+Bytes sent to client:23
+Received - CMD_LFT
+
+Bytes received - 8
+Try to get 8number of bytes
+TURN LEFT!
+setServ['/home/pi/WifiTruckServerApplication/wifi_truck_server.py', '192.168.43.100']
+192.168.43.100
+Sleep 10 s to let wifi connect correct
+Traceback (most recent call last):
+  File "/home/pi/WifiTruckServerApplication/wifi_truck_server.py", line 127, in <module>
+    myServer = WifiTruckServer()
+  File "/home/pi/WifiTruckServerApplication/wifi_truck_server.py", line 31, in __init__
+    self.myServerSocket.bind((HOST, PORT))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+['/home/pi/WifiTruckServerApplication/wifi_truck_server.py', '192.168.43.100']
+192.168.43.100
+Sleep 10 s to let wifi connect correct
+Traceback (most recent call last):
+  File "/home/pi/WifiTruckServerApplication/wifi_truck_server.py", line 127, in <module>
+    myServer = WifiTruckServer()
+  File "/home/pi/WifiTruckServerApplication/wifi_truck_server.py", line 31, in __init__
+    self.myServerSocket.bind((HOST, PORT))
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
