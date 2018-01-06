@@ -24,15 +24,15 @@ class WifiTruckController(object):
 		
 	# Sets a the pwm value by input (percentage)
 	def setServoPulse(self, channel, inputPercentage):
-		print("setServoPules - input:%f" % inputPercentage )
+#		print("setServoPules - input:%f" % inputPercentage )
 		if ( 0.0 <= inputPercentage <= 1.0 ):
 			if ( channel == 0 ):
 				pwmOutput = int(self.servoMinSteering + self.servoOutputSpanSteering * inputPercentage) # starting at min add the input times the span (min + 165 * 1 == 100%)
-				print("setServoPulse - pwmOutput:%d" %pwmOutput)
+#				print("setServoPulse - pwmOutput:%d" %pwmOutput)
 				self.pwm.setPWM(channel, 0, pwmOutput)
 			elif ( channel == 1 ):
 				pwmOutput = int(self.servoMinDCMotor + self.servoOutputSpanDCMotor * inputPercentage) # starting at min add the input times the span (min + 165 * 1 == 100%)
-				print("setServoPulse - pwmOutput:%d" %pwmOutput)
+#				print("setServoPulse - pwmOutput:%d" %pwmOutput)
 				self.pwm.setPWM(channel, 0, pwmOutput)	
 		else:
 			self.pwm.setPWM(channel, 0, 0)
@@ -43,7 +43,7 @@ class WifiTruckController(object):
 		time.sleep(2)
 		self.releaseSteering()
 		self.releaseMovement()
-		print("WTC - STOP")
+#		print("WTC - STOP")
 
 	def releaseSteering(self):
 		self.setServoPulse(0, 0.5)
@@ -60,11 +60,11 @@ class WifiTruckController(object):
 
 	def move(self, percent):	
 		self.setServoPulse(1, percent)
-		print("WTC - MOVE")
+#		print("WTC - MOVE")
 
 	def steer(self, percent):
 		self.setServoPulse(0, percent)
-		print("WTC - STEER")
+#		print("WTC - STEER")
 
 #	def left(self, percent):
 #		self.setServoPulse(0, percent)
