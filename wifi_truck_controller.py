@@ -14,12 +14,12 @@ class WifiTruckController(object):
 
 		self.servoMinSteering = 230 #Min pulse length out of 4096
 		self.servoNeutralSteering = 307 #Neutral -||-
-		self.servoMaxSteering = 385 #Max -||-
+		self.servoMaxSteering = 415 #Max -||-
 		self.servoOutputSpanSteering = self.servoMaxSteering - self.servoMinSteering
 
 		self.servoMinDCMotor = 230 	 	#Min pulse length out of 4096
-		self.servoNeutralDCMotor = 288 		#Neutrall -||- ?
-		self.servoMaxDCMotor = 385 	 	#Max -||-
+		self.servoNeutralDCMotor = 315 		#Neutrall -||- ?
+		self.servoMaxDCMotor = 400 	 	#Max -||-
 		self.servoOutputSpanDCMotor = self.servoMaxDCMotor - self.servoMinDCMotor
 		
 	# Sets a the pwm value by input (percentage)
@@ -38,27 +38,32 @@ class WifiTruckController(object):
 			self.pwm.setPWM(channel, 0, 0)
 
 	def stop(self):
-		self.setServoPulse(0, 0.5)
-		#self.setServoPulse(1, 0.3)
-		time.sleep(2)
-		self.releaseSteering()
 		self.releaseMovement()
+		self.releaseSteering()
 #		print("WTC - STOP")
 
 	def releaseSteering(self):
 		self.setServoPulse(0, 0.5)
-		time.sleep(1)
+		time.sleep(0.5)
 		self.pwm.setPWM(0, 0, 0)
 
 	def releaseMovement(self):
-		self.setServoPulse(1, 0.5)
-		time.sleep(1)
+		self.setServoPulse(1, 0.25)
+		time.sleep(0.5)
 		self.pwm.setPWM(1, 0, 0)
 
 	def releaseAllServos(self):
 		self.pwm.setAllPWM(0, 0)
 
-	def move(self, percent):	
+	def move(self, percent):
+		# Since the speed regulator doesn't map to the joystick divide by 2
+		# when reversing. The reverse is active in the 0-25% area
+		if ( percent < 0.35 ):
+			percent = 0
+		elif ( 0.4 < percent < 0.5 ):
+			percent = 0.25
+		elif ( 0.5 < percent < 0.6 ):
+			percent *= 0.75
 		self.setServoPulse(1, percent)
 #		print("WTC - MOVE")
 

@@ -15,7 +15,7 @@ if len(sys.argv) > 1:
 print(HOST)
 
 PORT = 2000
-MSGLEN = 13
+MSGLEN = 16
 
 exit_prog = False
 
@@ -30,18 +30,20 @@ class WifiTruckServer:
 		self.myServerSocket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 		self.myServerSocket.bind((HOST, PORT))
 		self.myServerSocket.listen(1)
-		self.incomingMsgQueue = Queue()
+		self.incomingMsgQueue = Queue(6)
 		self.outgoingMsgQueue = Queue()
 		self.disconnect = False
 		self.wifiTruckController = WifiTruckController()
 
 	def startServer(self):
-		#print("Waiting on connection...")
+		print("Waiting on connection...")
 		
 		(clientSocket, address) = self.myServerSocket.accept()
-		#print("Connection accepted!")
+		print("Connection accepted!")
 		self.clientSocket = clientSocket
 		self.disconnect = False
+		self.outgoingMsgQueue.put("Connection accepted!")
+
 
 	def listenToClient(self):
 		while not self.disconnect:
@@ -62,6 +64,7 @@ class WifiTruckServer:
 				bytes_recd += len(chunk)
 			#	print("Received - " + chunk + "\nBytes received - " + str(bytes_recd))
 			msgFromClient = ''.join(chunks).rstrip()
+			print("Queue size:{}".format(self.incomingMsgQueue.qsize()))
 			self.incomingMsgQueue.put(msgFromClient)
 
 	def writeToClient(self):
@@ -80,32 +83,36 @@ class WifiTruckServer:
 	def handleIncomingMsgs(self):
 		while not self.disconnect:
 			currentMsg = self.incomingMsgQueue.get(True)
+			print("CurrentMsg:{}".format(currentMsg))
+	
 			try:
-				firstPart, secondPart = currentMsg.split("#")
+				firstPart, secondPart, thirdPart = currentMsg.split("#")
 			except ValueError:
 				currentMsg += "ValueError"
 				continue
 	
-			if (firstPart == "CMD_JOYY"):
+			if (firstPart == "CMD_J"):
 #				print("MOVE!")
-				self.wifiTruckController.move(float(secondPart))
+				self.wifiTruckController.move(float(thirdPart))
+				self.wifiTruckController.steer(float(secondPart))
 			#elif (firstPart == "CMD_DWN"):
 			#	print("BACKWARD!")
 			#	self.wifiTruckController.move(float(secondPart))
-			elif (firstPart == "CMD_JOYX"):
-#				print("STEER!")
-				self.wifiTruckController.steer(float(secondPart))
+			#elif (firstPart == "CMD_JOYX"):
+#			#	print("STEER!")
+			#	self.wifiTruckController.steer(float(secondPart))
 			#elif (firstPart == "CMD_RGT"):
 			#	print("TURN RIGHT!")
 			#	self.wifiTruckController.steer(float(secondPart))
-			#elif (firstPart == "CMD_RL1"):
-			#	print("RELEASE SERVO 1")
-			#	self.wifiTruckController.releaseSteering()
-			#elif (firstPart == "CMD_RL2"):
-                        #        print("RELEASE SERVO 2")
+			elif (firstPart == "CMD_REL"):
+#				print("RELEASE SERVOS")
+				self.wifiTruckController.releaseMovement()
+				self.wifiTruckController.releaseSteering()
+			#elif (firstPart == "CMD_REL2"):
+#                       #         print("RELEASE SERVO 2")
                         #        self.wifiTruckController.releaseMovement()
 			elif (firstPart == "CMD_DSCNNCT"):
-#				print("Disconnect!")
+				print("Disconnect!")
 				self.disconnect = True
 				self.wifiTruckController.stop()
 #			else:
@@ -113,21 +120,21 @@ class WifiTruckServer:
 			self.outgoingMsgQueue.put("Server got " + currentMsg)
 
 	def stopServer(self):
-#		print("Stopping server")
+		print("Stopping server")
 		self.myServerSocket.close
 		# Reset this bool
 		self.disconnect = False
 
 	def signal_handler(self, signal, frame):
-#		print("Exiting gracefullyerererer!")
+		print("Exiting gracefullyerererer!")
 		self.stopServer()
 		exit_prog = True
 		sys.exit(0)
 
 # Main loop!
 # Wait for wifi connection to be set up
-#print("Sleep 10 s to let wifi connect correct")
-time.sleep(10)
+print("Sleep 5 s to let wifi connect correct")
+time.sleep(5)
 
 myServer = WifiTruckServer()
 
@@ -137,8 +144,8 @@ while not exit_prog:
 	myServer.startServer()
 	clientListener = threading.Thread(target=myServer.listenToClient)
 	clientListener.start()
-	#clientWriter = threading.Thread(target=myServer.writeToClient)
-	#clientWriter.start()
+	clientWriter = threading.Thread(target=myServer.writeToClient)
+	clientWriter.start()
 	myServer.handleIncomingMsgs()
 	myServer.stopServer()
 
